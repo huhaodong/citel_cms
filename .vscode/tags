@@ -1,0 +1,83 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	../CitelCms/cmsModel/migrations/0001_initial.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../CitelCms/CitelCms/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../CitelCms/CitelCms/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:92
+BASE_DIR	../CitelCms/CitelCms/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+CmsmodelConfig	../CitelCms/cmsModel/apps.py	/^class CmsmodelConfig(AppConfig):$/;"	kind:class	line:7
+DATABASES	../CitelCms/CitelCms/settings.py	/^DATABASES = {$/;"	kind:variable	line:77
+DEBUG	../CitelCms/CitelCms/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+INSTALLED_APPS	../CitelCms/CitelCms/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../CitelCms/CitelCms/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:111
+MIDDLEWARE	../CitelCms/CitelCms/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:43
+Migration	../CitelCms/cmsModel/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+ROOT_URLCONF	../CitelCms/CitelCms/settings.py	/^ROOT_URLCONF = 'CitelCms.urls'$/;"	kind:variable	line:53
+SECRET_KEY	../CitelCms/CitelCms/settings.py	/^SECRET_KEY = 'k!xfbav!4(z$!ss949@lyvjeb2_j6!i--yw(^j-g(6#5b98=u1'$/;"	kind:variable	line:23
+STATIC_URL	../CitelCms/CitelCms/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:125
+TEMPLATES	../CitelCms/CitelCms/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
+TIME_ZONE	../CitelCms/CitelCms/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:113
+USE_I18N	../CitelCms/CitelCms/settings.py	/^USE_I18N = True$/;"	kind:variable	line:115
+USE_L10N	../CitelCms/CitelCms/settings.py	/^USE_L10N = True$/;"	kind:variable	line:117
+USE_TZ	../CitelCms/CitelCms/settings.py	/^USE_TZ = True$/;"	kind:variable	line:119
+WSGI_APPLICATION	../CitelCms/CitelCms/settings.py	/^WSGI_APPLICATION = 'CitelCms.wsgi.application'$/;"	kind:variable	line:71
+__init__.py	../CitelCms/CitelCms/__init__.py	1;"	kind:file	line:1
+__init__.py	../CitelCms/CitelCms/dbcontrol/__init__.py	1;"	kind:file	line:1
+__init__.py	../CitelCms/CitelCms/views/__init__.py	1;"	kind:file	line:1
+__init__.py	../CitelCms/cmsModel/__init__.py	1;"	kind:file	line:1
+__init__.py	../CitelCms/cmsModel/migrations/__init__.py	1;"	kind:file	line:1
+__unicode__	../CitelCms/cmsModel/models.py	/^    def __unicode__(self):$/;"	kind:member	line:25
+__unicode__	../CitelCms/cmsModel/models.py	/^    def __unicode__(self):$/;"	kind:member	line:43
+__unicode__	../CitelCms/cmsModel/models.py	/^    def __unicode__(self):$/;"	kind:member	line:59
+admin.py	../CitelCms/cmsModel/admin.py	1;"	kind:file	line:1
+admin_account	../CitelCms/cmsModel/models.py	/^class admin_account(models.Model):$/;"	kind:class	line:50
+admin_email	../CitelCms/cmsModel/models.py	/^    admin_email = models.EmailField(unique=True)$/;"	kind:variable	line:53
+admin_md5	../CitelCms/cmsModel/models.py	/^    admin_md5 = models.CharField(max_length=300)$/;"	kind:variable	line:52
+admin_name	../CitelCms/cmsModel/models.py	/^    admin_name = models.CharField(max_length=200)$/;"	kind:variable	line:51
+admin_phone	../CitelCms/cmsModel/models.py	/^    admin_phone = models.CharField(max_length=30)$/;"	kind:variable	line:54
+admin_privilege_level	../CitelCms/cmsModel/models.py	/^    admin_privilege_level = models.IntegerField()$/;"	kind:variable	line:55
+application	../CitelCms/CitelCms/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../CitelCms/cmsModel/apps.py	1;"	kind:file	line:1
+baseTemplate	../CitelCms/CitelCms/views/view.py	/^def baseTemplate(request):$/;"	kind:function	line:7
+category	../CitelCms/cmsModel/models.py	/^    category = models.CharField(max_length=100)$/;"	kind:variable	line:20
+content_path	../CitelCms/cmsModel/models.py	/^    content_path = models.FilePathField()$/;"	kind:variable	line:21
+created_at	../CitelCms/cmsModel/models.py	/^    created_at = models.DateField(auto_now_add=True)$/;"	kind:variable	line:22
+created_at	../CitelCms/cmsModel/models.py	/^    created_at = models.DateField(auto_now_add=True)$/;"	kind:variable	line:40
+created_at	../CitelCms/cmsModel/models.py	/^    created_at = models.DateField(auto_now_add=True)$/;"	kind:variable	line:56
+dbcontrol.py	../CitelCms/CitelCms/dbcontrol/dbcontrol.py	1;"	kind:file	line:1
+dbcontrol.py	../CitelCms/dbControl/dbcontrol.py	1;"	kind:file	line:1
+dependencies	../CitelCms/cmsModel/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:12
+fields	../CitelCms/cmsModel/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
+fields	../CitelCms/cmsModel/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:31
+fields	../CitelCms/cmsModel/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:42
+initial	../CitelCms/cmsModel/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:10
+items	../CitelCms/cmsModel/models.py	/^class items(models.Model):$/;"	kind:class	line:18
+manage.py	../CitelCms/manage.py	1;"	kind:file	line:1
+models.py	../CitelCms/cmsModel/models.py	1;"	kind:file	line:1
+name	../CitelCms/cmsModel/apps.py	/^    name = 'cmsModel'$/;"	kind:variable	line:8
+name	../CitelCms/cmsModel/migrations/0001_initial.py	/^            name='admin_account',$/;"	kind:variable	line:17
+name	../CitelCms/cmsModel/migrations/0001_initial.py	/^            name='items',$/;"	kind:variable	line:30
+name	../CitelCms/cmsModel/migrations/0001_initial.py	/^            name='user_account',$/;"	kind:variable	line:41
+name	../CitelCms/cmsModel/models.py	/^    name = models.CharField(max_length=200)$/;"	kind:variable	line:19
+operations	../CitelCms/cmsModel/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
+settings.py	../CitelCms/CitelCms/settings.py	1;"	kind:file	line:1
+tests.py	../CitelCms/cmsModel/tests.py	1;"	kind:file	line:1
+updated_at	../CitelCms/cmsModel/models.py	/^    updated_at = models.DateField(auto_now=True)$/;"	kind:variable	line:23
+updated_at	../CitelCms/cmsModel/models.py	/^    updated_at = models.DateField(auto_now=True)$/;"	kind:variable	line:41
+updated_at	../CitelCms/cmsModel/models.py	/^    updated_at = models.DateField(auto_now=True)$/;"	kind:variable	line:57
+urlpatterns	../CitelCms/CitelCms/urls.py	/^urlpatterns = [$/;"	kind:variable	line:20
+urls.py	../CitelCms/CitelCms/urls.py	1;"	kind:file	line:1
+user_account	../CitelCms/cmsModel/models.py	/^class user_account(models.Model):$/;"	kind:class	line:32
+user_account_level	../CitelCms/cmsModel/models.py	/^    user_account_level = models.IntegerField()$/;"	kind:variable	line:38
+user_account_point	../CitelCms/cmsModel/models.py	/^    user_account_point = models.IntegerField()$/;"	kind:variable	line:39
+user_email	../CitelCms/cmsModel/models.py	/^    user_email = models.EmailField(unique=True)$/;"	kind:variable	line:35
+user_md5	../CitelCms/cmsModel/models.py	/^    user_md5 = models.CharField(max_length=300)$/;"	kind:variable	line:34
+user_name	../CitelCms/cmsModel/models.py	/^    user_name = models.CharField(max_length=200)$/;"	kind:variable	line:33
+user_phone	../CitelCms/cmsModel/models.py	/^    user_phone = models.CharField(max_length=30)$/;"	kind:variable	line:36
+user_privilege_level	../CitelCms/cmsModel/models.py	/^    user_privilege_level = models.IntegerField()$/;"	kind:variable	line:37
+view.py	../CitelCms/CitelCms/views/view.py	1;"	kind:file	line:1
+views.py	../CitelCms/cmsModel/views.py	1;"	kind:file	line:1
+wsgi.py	../CitelCms/CitelCms/wsgi.py	1;"	kind:file	line:1
